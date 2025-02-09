@@ -1,14 +1,5 @@
-const { defineConfig } = require("cypress");
-
-module.exports = defineConfig({
+module.exports ={
   e2e: {
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
-    //baseURL: "https://google.com/",
-    video: true,
-    screenshotOnRunFailure: true,
-    chromeWebSecurity: false
-
+      baseURL: "https://quest:welcome2qauto@qauto.forstudy.space"
   },
-});
+};
