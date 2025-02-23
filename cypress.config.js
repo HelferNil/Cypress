@@ -2,6 +2,7 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
     baseURL: "https://guest:welcome2qauto@qauto.forstudy.space",
+    baseUrl: "https://qauto.forstudy.space",
     video: false,
     screenshotOnRunFailure: false,
     chromeWebSecurity: false,
