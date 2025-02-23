@@ -1,5 +1,10 @@
 {
   "devDependencies": {
-    "cypress": "^13.17.0"
+    "cypress": "^13.17.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "scripts": {
+    "cypress:runDEV": "npx cypress run --spec 'cypress/e2e/qauto/hw20.cy.js' --config-file dev.config.js",
+    "cypress:runTEST": "npx cypress run --spec 'cypress/e2e/qauto/hw20.cy.js'"
   }
 }
